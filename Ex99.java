@@ -8,7 +8,7 @@ public class Ex3 {
         int[] A = new int[TAM];
 
         
-        System.out.println("Digite 5 números inteiros:");
+        System.out.println("Digite 5 nÃºmeros inteiros:");
         for (int i = 0; i < TAM; i++) {
                   System.out.print("Vetor A" +(1+i)+": ");
 
@@ -16,7 +16,7 @@ public class Ex3 {
         }
 
         for (int i = 0; i < TAM; i++) {
-            System.out.println("Tabuada do número " + A[i] + ":");
+            System.out.println("Tabuada do nÃºmero " + A[i] + ":");
             
             int t = 1;
             while (t <= 10) {
