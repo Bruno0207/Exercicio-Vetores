@@ -31,7 +31,7 @@ public class Ex3 {
         }
 
         
-        System.out.println("Vetor B (Pares seguidos dos ímpares):");
+        System.out.println("Vetor B (Pares seguidos dos Ã­mpares):");
         for (i = 0; i < TAM; i++) {
             System.out.print(B[i] + " ");
         }
