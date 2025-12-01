@@ -8,16 +8,17 @@ public class Ex14 {
         int[] A = new int[TAM];
         int[] B = new int[TAM];
 
-        System.out.println("Digite 10 números:");
+        System.out.println("Digite 10 nÃºmeros:");
         for (int i = 0; i < TAM; i++) A[i] = in.nextInt();
 
         for (int i = 0; i < TAM; i++) {
             B[i] = (A[i] % 2 == 0) ? 1 : 0;
         }
 
-        for (int x : B) System.out.print(x + " ");
+        for (int x = B) System.out.print(x + " ");
     }
 }
+
 
 
 
