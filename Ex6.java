@@ -8,7 +8,7 @@ import java.util.Scanner;
 
          System.out.println ("Digite 10 numeros");
         for (int i = 0; i < TAM; i++) {
-            // 1 << i é a formula para calucular  2^i em Java
+        
             vetorA[i] = 1 << i;
         }
          
@@ -24,4 +24,5 @@ import java.util.Scanner;
         }
         System.out.println("]");
     }
+
 }
