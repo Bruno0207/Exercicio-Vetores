@@ -10,14 +10,15 @@ public class Ex7 {
          System. out. println("Digite 15 numeros :");
         for (int i = 0; i < TAM; i++) A[i] = in.nextInt();
         
-        System. out. println("Fatoração") ;
+        System. out. println("FatoraÃ§Ã£o") ;
         for (int i = 0; i < TAM; i++) {
             int r = 1;
             for (int j = 1; j <= A[i]; j++) r = r * j;
             B[i] = r;
         }
 
-        for (int x : B) System.out.println(x);
+        for (int x = B) System.out.println(x);
        
     }
+
 }
