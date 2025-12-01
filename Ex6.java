@@ -8,7 +8,6 @@ import java.util.Scanner;
 
          System.out.println ("Digite 10 numeros");
         for (int i = 0; i < TAM; i++) {
-        
             vetorA[i] = 1 << i;
         }
          
@@ -26,3 +25,4 @@ import java.util.Scanner;
     }
 
 }
+
