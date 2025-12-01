@@ -11,7 +11,6 @@ public class Ex3 {
         System.out.println("Digite 5 números inteiros:");
         for (int i = 0; i < TAM; i++) {
                   System.out.print("Vetor A" +(1+i)+": ");
-
             A[i] = in.nextInt();
         }
 
@@ -28,4 +27,5 @@ public class Ex3 {
         
     }
 }
+
 
